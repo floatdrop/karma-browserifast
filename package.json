@@ -1,40 +1,43 @@
 {
-    "name": "karma-browserifast",
-    "description": "Fast browserify for Karma",
-    "keywords": [
-        "karma-plugin",
-        "browserify"
-    ],
-    "version": "0.6.0",
-    "authors": [{
-        "name": "Jostein Holje",
-        "email": "jostein.holje@gmail.com",
-        "url": "http://github.com/jstnhlj"
-    }, {
-        "name": "Christian Johansen",
-        "email": "christian@cjohansen.no",
-        "url": "http://cjohansen.no"
-    }],
-    "scripts": {
-        "test": "node run-tests.js"
+  "name": "karma-browserifast",
+  "description": "Fast browserify for Karma",
+  "keywords": [
+    "karma-plugin",
+    "browserify"
+  ],
+  "version": "0.6.0",
+  "authors": [
+    {
+      "name": "Jostein Holje",
+      "email": "jostein.holje@gmail.com",
+      "url": "http://github.com/jstnhlj"
     },
-    "main": "./index.js",
-    "license": "BSD",
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:cjohansen/karma-browserifast.git"
-    },
-    "bugs": "https://github.com/cjohansen/karma-browserifast/issues",
-    "dependencies": {
-        "watchify": "~0.6",
-        "glob": "~3.2",
-        "chokidar": "~0.8",
-        "convert-source-map": "~0.3.3"
-    },
-    "devDependencies": {
-        "buster-node": "~0.7"
-    },
-    "peerDependencies": {
-        "karma": ">=0.9"
+    {
+      "name": "Christian Johansen",
+      "email": "christian@cjohansen.no",
+      "url": "http://cjohansen.no"
     }
+  ],
+  "scripts": {
+    "test": "node run-tests.js"
+  },
+  "main": "./index.js",
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cjohansen/karma-browserifast.git"
+  },
+  "bugs": "https://github.com/cjohansen/karma-browserifast/issues",
+  "dependencies": {
+    "convert-source-map": "~0.3.3",
+    "gaze": "~0.5",
+    "glob": "~3.2",
+    "watchify": "~0.6"
+  },
+  "devDependencies": {
+    "buster-node": "~0.7"
+  },
+  "peerDependencies": {
+    "karma": ">=0.9"
+  }
 }
